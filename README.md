@@ -1,3 +1,5 @@
+DATABSE USER SHCEMA
+
 -- 📍 Address Table
 CREATE TABLE Address (
     address_id INT PRIMARY KEY AUTO_INCREMENT,
