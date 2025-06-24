@@ -2,7 +2,7 @@
 
 
 -- 📍 Address Table
-CREATE TABLE Address (
+CREATE TABLE Address 
     address_id INT PRIMARY KEY AUTO_INCREMENT,
     line1 VARCHAR(255),
     line2 VARCHAR(255),
@@ -10,7 +10,7 @@ CREATE TABLE Address (
     state VARCHAR(100),
     country VARCHAR(100),
     pincode VARCHAR(20)
-);
+
 
 -- 👤 Users Table
 CREATE TABLE Users (
